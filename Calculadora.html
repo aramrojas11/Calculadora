@@ -17,42 +17,41 @@
 			</br>
 		</center>
 	</body>
-			<script>
-				var c1, c2, r
-				
-				function Sumar(){
-					c1 = document.getElementById("c1").value;
-					c2 = document.getElementById("c2").value;
-					r = parseInt (c1) + parseInt (c2)
-					alert('El resultado de la suma es: ' + r)
-				}
-				function Restar(){
-					c1 = document.getElementById("c1").value;
-					c2 = document.getElementById("c2").value;
-					r = parseInt (c1) - parseInt (c2)
-					alert('El resultado de la resta es: ' + r)
-				}
-				function Multiplicar(){
-					c1 = document.getElementById("c1").value;
-					c2 = document.getElementById("c2").value;
-					r = parseInt (c1) * parseInt (c2)
-					alert('El resultado de la multiplicación es: ' + r)
-				}
-				function Dividir(){
-					c1 = document.getElementById("c1").value;
-					c2 = document.getElementById("c2").value;
-					r = parseInt (c1) / parseInt (c2)
-					alert('El resultado de la división es: ' + r)
-				}
-				function Raiz(){
-					c1 = document.getElementById("c1").value;
-					r = Math.sqrt(c1)
-					if (c1 < 0) {
-				alert ("No se puede paput")
-				} else {
-				alert(r)   
-				}
-					alert('La raiz es: '+ r)
-				}
-		</script> 
+		<script>
+			var c1, c2, r			
+			function Sumar(){
+				c1 = document.getElementById("c1").value;
+				c2 = document.getElementById("c2").value;
+				r = parseInt (c1) + parseInt (c2)
+				alert('El resultado de la suma es: ' + r)
+			}
+			function Restar(){
+				c1 = document.getElementById("c1").value;
+				c2 = document.getElementById("c2").value;
+				r = parseInt (c1) - parseInt (c2)
+				alert('El resultado de la resta es: ' + r)
+			}
+			function Multiplicar(){
+				c1 = document.getElementById("c1").value;
+				c2 = document.getElementById("c2").value;
+				r = parseInt (c1) * parseInt (c2)
+				alert('El resultado de la multiplicación es: ' + r)
+			}
+			function Dividir(){
+				c1 = document.getElementById("c1").value;
+				c2 = document.getElementById("c2").value;
+				r = parseInt (c1) / parseInt (c2)
+				alert('El resultado de la división es: ' + r)
+			}
+			function Raiz(){
+				c1 = document.getElementById("c1").value;
+				r = Math.sqrt(c1)
+				if (c1 < 0) {
+			alert ("No se puede paput")
+			} else {
+			alert(r)   
+			}
+				alert('La raiz es: '+ r)
+			}		
+	</script>
 </html>
